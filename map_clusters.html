@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_f915ab3534b0441080989359efa2a253 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f915ab3534b0441080989359efa2a253" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_f915ab3534b0441080989359efa2a253 = L.map(
+                                  'map_f915ab3534b0441080989359efa2a253',
+                                  {center: [1.357107,103.8194992],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_da1881f72bd8486791273bb3800eaf4b = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+        
+    
+            var circle_marker_d91cb04f20af458cb415987e028a6c16 = L.circleMarker(
+                [1.3716100000000324,103.84546000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4df3ce",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4df3ce",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_31265a3dc8714d8d8d55297ea84e0a6f = L.popup({maxWidth: '300'});
+
+            
+                var html_5c2f151f982647f8a9a699cc217a3854 = $('<div id="html_5c2f151f982647f8a9a699cc217a3854" style="width: 100.0%; height: 100.0%;">Ang Mo Kio Cluster 3</div>')[0];
+                popup_31265a3dc8714d8d8d55297ea84e0a6f.setContent(html_5c2f151f982647f8a9a699cc217a3854);
+            
+
+            circle_marker_d91cb04f20af458cb415987e028a6c16.bindPopup(popup_31265a3dc8714d8d8d55297ea84e0a6f);
+
+            
+        
+    
+            var circle_marker_70e32e6e7197455685fab6aab13861c6 = L.circleMarker(
+                [1.3242500000000632,103.95297000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_0608a8ae6fc34422b27f1bd8bd928813 = L.popup({maxWidth: '300'});
+
+            
+                var html_fff2ab3fedd0437bac1a641745e94adb = $('<div id="html_fff2ab3fedd0437bac1a641745e94adb" style="width: 100.0%; height: 100.0%;">Bedok Cluster 1</div>')[0];
+                popup_0608a8ae6fc34422b27f1bd8bd928813.setContent(html_fff2ab3fedd0437bac1a641745e94adb);
+            
+
+            circle_marker_70e32e6e7197455685fab6aab13861c6.bindPopup(popup_0608a8ae6fc34422b27f1bd8bd928813);
+
+            
+        
+    
+            var circle_marker_8d4c2a0cfed24c8ab29c9dac96fae117 = L.circleMarker(
+                [1.3507900000000743,103.85110000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b2f396",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b2f396",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_84e3a23ff09a49c89a06f08feef6fedb = L.popup({maxWidth: '300'});
+
+            
+                var html_2e83167d61df4c3aad7b0b6daa95c7d6 = $('<div id="html_2e83167d61df4c3aad7b0b6daa95c7d6" style="width: 100.0%; height: 100.0%;">Bishan Cluster 4</div>')[0];
+                popup_84e3a23ff09a49c89a06f08feef6fedb.setContent(html_2e83167d61df4c3aad7b0b6daa95c7d6);
+            
+
+            circle_marker_8d4c2a0cfed24c8ab29c9dac96fae117.bindPopup(popup_84e3a23ff09a49c89a06f08feef6fedb);
+
+            
+        
+    
+            var circle_marker_fef0e65ef1c34865a7b2964e11c625e5 = L.circleMarker(
+                [1.3495200000000411,103.75277000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b2f396",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b2f396",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_270528cda7ae42b18011e1c044b2abc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b43c16f324e41529e838a4f0a7dcf96 = $('<div id="html_8b43c16f324e41529e838a4f0a7dcf96" style="width: 100.0%; height: 100.0%;">Bukit Batok Cluster 4</div>')[0];
+                popup_270528cda7ae42b18011e1c044b2abc7.setContent(html_8b43c16f324e41529e838a4f0a7dcf96);
+            
+
+            circle_marker_fef0e65ef1c34865a7b2964e11c625e5.bindPopup(popup_270528cda7ae42b18011e1c044b2abc7);
+
+            
+        
+    
+            var circle_marker_986d6b2f8e0b4cbdbba296b241b4824e = L.circleMarker(
+                [1.2832199522478398,103.81675993782109],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff964f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff964f",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_6a1a7148a3a04cb68ada836fdabfe90d = L.popup({maxWidth: '300'});
+
+            
+                var html_9db9daee5b1b4c34b0a14e5fa6a4977f = $('<div id="html_9db9daee5b1b4c34b0a14e5fa6a4977f" style="width: 100.0%; height: 100.0%;">Bukit Merah Cluster 5</div>')[0];
+                popup_6a1a7148a3a04cb68ada836fdabfe90d.setContent(html_9db9daee5b1b4c34b0a14e5fa6a4977f);
+            
+
+            circle_marker_986d6b2f8e0b4cbdbba296b241b4824e.bindPopup(popup_6a1a7148a3a04cb68ada836fdabfe90d);
+
+            
+        
+    
+            var circle_marker_de8f7be17f2d44a999c2b9129dab6359 = L.circleMarker(
+                [1.3787700000000314,103.76977000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4df3ce",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4df3ce",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_03b5b7c7235743b5814c4ffcf1933105 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ce7475298ea4f9aadd951531f6c2c20 = $('<div id="html_1ce7475298ea4f9aadd951531f6c2c20" style="width: 100.0%; height: 100.0%;">Bukit Panjang Cluster 3</div>')[0];
+                popup_03b5b7c7235743b5814c4ffcf1933105.setContent(html_1ce7475298ea4f9aadd951531f6c2c20);
+            
+
+            circle_marker_de8f7be17f2d44a999c2b9129dab6359.bindPopup(popup_03b5b7c7235743b5814c4ffcf1933105);
+
+            
+        
+    
+            var circle_marker_18dbef4ae50346b9997c8e72853681ef = L.circleMarker(
+                [1.3861600000000749,103.74618000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4df3ce",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4df3ce",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_924cb11a91ce4218a5843b386d6fabfa = L.popup({maxWidth: '300'});
+
+            
+                var html_ffbf2ae9845643c29dfbf6156e4306ea = $('<div id="html_ffbf2ae9845643c29dfbf6156e4306ea" style="width: 100.0%; height: 100.0%;">Choa Chu Kang Cluster 3</div>')[0];
+                popup_924cb11a91ce4218a5843b386d6fabfa.setContent(html_ffbf2ae9845643c29dfbf6156e4306ea);
+            
+
+            circle_marker_18dbef4ae50346b9997c8e72853681ef.bindPopup(popup_924cb11a91ce4218a5843b386d6fabfa);
+
+            
+        
+    
+            var circle_marker_1b845977d1c14beb9430b6c7ffee12ff = L.circleMarker(
+                [1.3143800000000283,103.76537000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b2f396",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b2f396",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_d1eca00afbbc431c89e4f56116715068 = L.popup({maxWidth: '300'});
+
+            
+                var html_f79c9976ab964da5a2b213c117444479 = $('<div id="html_f79c9976ab964da5a2b213c117444479" style="width: 100.0%; height: 100.0%;">Clementi Cluster 4</div>')[0];
+                popup_d1eca00afbbc431c89e4f56116715068.setContent(html_f79c9976ab964da5a2b213c117444479);
+            
+
+            circle_marker_1b845977d1c14beb9430b6c7ffee12ff.bindPopup(popup_d1eca00afbbc431c89e4f56116715068);
+
+            
+        
+    
+            var circle_marker_c6238410f7224460881c36f73a72bd92 = L.circleMarker(
+                [1.3114700000000423,103.88218000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_cac0f8c3048048adb67ef2eb8730c52c = L.popup({maxWidth: '300'});
+
+            
+                var html_a1c3c863d8c04dd08acdd5855ac7cb43 = $('<div id="html_a1c3c863d8c04dd08acdd5855ac7cb43" style="width: 100.0%; height: 100.0%;">Geylang Cluster 1</div>')[0];
+                popup_cac0f8c3048048adb67ef2eb8730c52c.setContent(html_a1c3c863d8c04dd08acdd5855ac7cb43);
+            
+
+            circle_marker_c6238410f7224460881c36f73a72bd92.bindPopup(popup_cac0f8c3048048adb67ef2eb8730c52c);
+
+            
+        
+    
+            var circle_marker_28318a59aab24059b493cb6653ef996d = L.circleMarker(
+                [1.3712400000000573,103.89162000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_fc0b88cb55fe4e4fa8c4134c0f24684f = L.popup({maxWidth: '300'});
+
+            
+                var html_4538463f0f1049c19b458ac0fc1bbf1f = $('<div id="html_4538463f0f1049c19b458ac0fc1bbf1f" style="width: 100.0%; height: 100.0%;">Hougang Cluster 1</div>')[0];
+                popup_fc0b88cb55fe4e4fa8c4134c0f24684f.setContent(html_4538463f0f1049c19b458ac0fc1bbf1f);
+            
+
+            circle_marker_28318a59aab24059b493cb6653ef996d.bindPopup(popup_fc0b88cb55fe4e4fa8c4134c0f24684f);
+
+            
+        
+    
+            var circle_marker_06fca5728c9742f785703c1723e1059a = L.circleMarker(
+                [1.3343700000000354,103.74367000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_4cf2d57bf1f54ee2b19c2578eb424a44 = L.popup({maxWidth: '300'});
+
+            
+                var html_901ded7d213c443091485d9dc37eeba7 = $('<div id="html_901ded7d213c443091485d9dc37eeba7" style="width: 100.0%; height: 100.0%;">Jurong East Cluster 1</div>')[0];
+                popup_4cf2d57bf1f54ee2b19c2578eb424a44.setContent(html_901ded7d213c443091485d9dc37eeba7);
+            
+
+            circle_marker_06fca5728c9742f785703c1723e1059a.bindPopup(popup_4cf2d57bf1f54ee2b19c2578eb424a44);
+
+            
+        
+    
+            var circle_marker_ad5a1d9ab06b45478cfde02c9c93a243 = L.circleMarker(
+                [1.3394900000000691,103.70739000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4df3ce",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4df3ce",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_628235ccd68c43de932843dd563f010b = L.popup({maxWidth: '300'});
+
+            
+                var html_0633e0338de24ff9a30b5e702c3fa431 = $('<div id="html_0633e0338de24ff9a30b5e702c3fa431" style="width: 100.0%; height: 100.0%;">Jurong West Cluster 3</div>')[0];
+                popup_628235ccd68c43de932843dd563f010b.setContent(html_0633e0338de24ff9a30b5e702c3fa431);
+            
+
+            circle_marker_ad5a1d9ab06b45478cfde02c9c93a243.bindPopup(popup_628235ccd68c43de932843dd563f010b);
+
+            
+        
+    
+            var circle_marker_25d30d1f0fdc4932b0e10d698ab86294 = L.circleMarker(
+                [1.3207174845002572,103.86386256607432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff964f",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff964f",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_b7e0c838265d405e9a7ff5333aef8cd9 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b4ac5cb81854bf5b566d044ce309087 = $('<div id="html_6b4ac5cb81854bf5b566d044ce309087" style="width: 100.0%; height: 100.0%;">Kallang/Whampoa Cluster 5</div>')[0];
+                popup_b7e0c838265d405e9a7ff5333aef8cd9.setContent(html_6b4ac5cb81854bf5b566d044ce309087);
+            
+
+            circle_marker_25d30d1f0fdc4932b0e10d698ab86294.bindPopup(popup_b7e0c838265d405e9a7ff5333aef8cd9);
+
+            
+        
+    
+            var circle_marker_4482bacabe5346f8a1a41a1c612029c2 = L.circleMarker(
+                [1.371940000000052,103.94994000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b2f396",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b2f396",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_49d885469c6f41639a7416bf03298ba8 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e2aa2a031a547caa0995a9e7708fb04 = $('<div id="html_5e2aa2a031a547caa0995a9e7708fb04" style="width: 100.0%; height: 100.0%;">Pasir Ris Cluster 4</div>')[0];
+                popup_49d885469c6f41639a7416bf03298ba8.setContent(html_5e2aa2a031a547caa0995a9e7708fb04);
+            
+
+            circle_marker_4482bacabe5346f8a1a41a1c612029c2.bindPopup(popup_49d885469c6f41639a7416bf03298ba8);
+
+            
+        
+    
+            var circle_marker_8c438188bcce4de8aced102fd41c9ab9 = L.circleMarker(
+                [1.402460000000076,103.90686000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_7582193fa02744a9a6ee9a80ee0bcba5 = L.popup({maxWidth: '300'});
+
+            
+                var html_192ac0307532472e992131b559bfee02 = $('<div id="html_192ac0307532472e992131b559bfee02" style="width: 100.0%; height: 100.0%;">Punggol Cluster 2</div>')[0];
+                popup_7582193fa02744a9a6ee9a80ee0bcba5.setContent(html_192ac0307532472e992131b559bfee02);
+            
+
+            circle_marker_8c438188bcce4de8aced102fd41c9ab9.bindPopup(popup_7582193fa02744a9a6ee9a80ee0bcba5);
+
+            
+        
+    
+            var circle_marker_4fc41a1d57254b028e9bd424d3906997 = L.circleMarker(
+                [1.299660000000074,103.80172000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#b2f396",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#b2f396",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_3619126431f6483f8f29d9304ce2f727 = L.popup({maxWidth: '300'});
+
+            
+                var html_5578d94d802741ea97ca40b8f765058a = $('<div id="html_5578d94d802741ea97ca40b8f765058a" style="width: 100.0%; height: 100.0%;">Queenstown Cluster 4</div>')[0];
+                popup_3619126431f6483f8f29d9304ce2f727.setContent(html_5578d94d802741ea97ca40b8f765058a);
+            
+
+            circle_marker_4fc41a1d57254b028e9bd424d3906997.bindPopup(popup_3619126431f6483f8f29d9304ce2f727);
+
+            
+        
+    
+            var circle_marker_0479066d58b44f08bc18155af7dcdd84 = L.circleMarker(
+                [1.4479400000000735,103.81891000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1996f3",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1996f3",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_7b120a95d8cc416881cf8ba5cf0481e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_07eba2acca0042a1ade869a1eeb23e2a = $('<div id="html_07eba2acca0042a1ade869a1eeb23e2a" style="width: 100.0%; height: 100.0%;">Sembawang Cluster 2</div>')[0];
+                popup_7b120a95d8cc416881cf8ba5cf0481e1.setContent(html_07eba2acca0042a1ade869a1eeb23e2a);
+            
+
+            circle_marker_0479066d58b44f08bc18155af7dcdd84.bindPopup(popup_7b120a95d8cc416881cf8ba5cf0481e1);
+
+            
+        
+    
+            var circle_marker_9374701ee0a642228392fd25c850d222 = L.circleMarker(
+                [1.3924600000000282,103.89459000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_ac38f5315d0046e98b6cf0ff091edf47 = L.popup({maxWidth: '300'});
+
+            
+                var html_0328350ed08a4f00ab767d66c9894c0b = $('<div id="html_0328350ed08a4f00ab767d66c9894c0b" style="width: 100.0%; height: 100.0%;">Sengkang Cluster 1</div>')[0];
+                popup_ac38f5315d0046e98b6cf0ff091edf47.setContent(html_0328350ed08a4f00ab767d66c9894c0b);
+            
+
+            circle_marker_9374701ee0a642228392fd25c850d222.bindPopup(popup_ac38f5315d0046e98b6cf0ff091edf47);
+
+            
+        
+    
+            var circle_marker_3abf6c84140642f58080ea4aa34627c9 = L.circleMarker(
+                [1.355540000000076,103.87660000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_47349576f41f48af99f43cc051a59eaa = L.popup({maxWidth: '300'});
+
+            
+                var html_478969ea1f944744a98d053763df477c = $('<div id="html_478969ea1f944744a98d053763df477c" style="width: 100.0%; height: 100.0%;">Serangoon Cluster 1</div>')[0];
+                popup_47349576f41f48af99f43cc051a59eaa.setContent(html_478969ea1f944744a98d053763df477c);
+            
+
+            circle_marker_3abf6c84140642f58080ea4aa34627c9.bindPopup(popup_47349576f41f48af99f43cc051a59eaa);
+
+            
+        
+    
+            var circle_marker_15fe7367997840d099e7ed0ec2c6f0f7 = L.circleMarker(
+                [1.3681900000000269,103.92948000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_f1e07fa71df545b4a78209f0668e452f = L.popup({maxWidth: '300'});
+
+            
+                var html_977b332ab32941fea49f0c0345496cc4 = $('<div id="html_977b332ab32941fea49f0c0345496cc4" style="width: 100.0%; height: 100.0%;">Tampines Cluster 1</div>')[0];
+                popup_f1e07fa71df545b4a78209f0668e452f.setContent(html_977b332ab32941fea49f0c0345496cc4);
+            
+
+            circle_marker_15fe7367997840d099e7ed0ec2c6f0f7.bindPopup(popup_f1e07fa71df545b4a78209f0668e452f);
+
+            
+        
+    
+            var circle_marker_20a870768a22470c8ac9f390d21172bf = L.circleMarker(
+                [1.334480000000042,103.85108000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_f206cd20edc84241b1acff454e320b66 = L.popup({maxWidth: '300'});
+
+            
+                var html_565467e457194232b3b84232b8b356e0 = $('<div id="html_565467e457194232b3b84232b8b356e0" style="width: 100.0%; height: 100.0%;">Toa Payoh Cluster 0</div>')[0];
+                popup_f206cd20edc84241b1acff454e320b66.setContent(html_565467e457194232b3b84232b8b356e0);
+            
+
+            circle_marker_20a870768a22470c8ac9f390d21172bf.bindPopup(popup_f206cd20edc84241b1acff454e320b66);
+
+            
+        
+    
+            var circle_marker_d4c31900064f4eecaacec06ae919ff11 = L.circleMarker(
+                [1.4358500000000731,103.78698000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4df3ce",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4df3ce",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_6919d26fc5c1416e9d6293b84482612b = L.popup({maxWidth: '300'});
+
+            
+                var html_1cb715bd4cad4e82bdaee479f478d965 = $('<div id="html_1cb715bd4cad4e82bdaee479f478d965" style="width: 100.0%; height: 100.0%;">Woodlands Cluster 3</div>')[0];
+                popup_6919d26fc5c1416e9d6293b84482612b.setContent(html_1cb715bd4cad4e82bdaee479f478d965);
+            
+
+            circle_marker_d4c31900064f4eecaacec06ae919ff11.bindPopup(popup_6919d26fc5c1416e9d6293b84482612b);
+
+            
+        
+    
+            var circle_marker_5dc26262aa144b989f7fe767d41d7d06 = L.circleMarker(
+                [1.4362100000000737,103.83582000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.9,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f915ab3534b0441080989359efa2a253);
+            
+    
+            var popup_d35370abbe8f449892f212c8f4e533d6 = L.popup({maxWidth: '300'});
+
+            
+                var html_afbafbbd3ca54833be3509a2f290cf0c = $('<div id="html_afbafbbd3ca54833be3509a2f290cf0c" style="width: 100.0%; height: 100.0%;">Yishun Cluster 1</div>')[0];
+                popup_d35370abbe8f449892f212c8f4e533d6.setContent(html_afbafbbd3ca54833be3509a2f290cf0c);
+            
+
+            circle_marker_5dc26262aa144b989f7fe767d41d7d06.bindPopup(popup_d35370abbe8f449892f212c8f4e533d6);
+
+            
+        
+</script>
